@@ -1,0 +1,21 @@
+number=int(input("please add number :"))
+if number >0:
+    print("عدد مثبت است")
+elif number< 0:
+    print("عدد منفي است")
+else:
+    print("عدد صفر است")
+    
+name=input("please enter your name :")
+print(f"welcome {name}")
+color=input("please enter color:")
+if color=='green':
+    print("سبز")
+if color=='red':
+    print("قرمز")
+
+if color=="yellow":
+    print("زرد")
+if color=='blue':
+    print("ابي")
+    
